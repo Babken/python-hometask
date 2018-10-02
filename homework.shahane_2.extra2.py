@@ -5,6 +5,5 @@ while True:
         j = 1
         for f in range(1,int(num)+1):
             j *= f
-            f += 1
         print("Factorial of %s is %d" % (num,j))
         break
